@@ -8,7 +8,7 @@ public class App {
 
         int computerDie = randome.nextInt(1,7); //gennererar tal 1-6
 
-        App scanner = new App(System.in);
+        Scanner scanner = new Scanner(System.in);
         
         int attempts = 0;
 
